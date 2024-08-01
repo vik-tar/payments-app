@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './shared/styles/index.scss';
+import Header from "./widgets/Header/Header";
+import SideBar from "./widgets/SideBar/SideBar";
+import Layout from "./widgets/Layout/Layout";
+import MainPage from "./widgets/MainPage/MainPage";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <SideBar />
+      <Layout>
+        <MainPage />
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;
