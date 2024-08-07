@@ -1,0 +1,45 @@
+.promocode {
+  padding: var(--layout-mobile-padding);
+
+  @media (min-width: 768px) {
+    padding: var(--layout-desktop-padding);
+  }
+
+  &__title {
+    margin: 0;
+    font: var(--font-subtitle);
+  }
+
+  &__subtitle {
+    font: var(--font-card-description);
+    opacity: 50%;
+  }
+
+  &__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 25px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: 152px;
+    }
+  }
+
+  &__input {
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: 487px;
+    }
+  }
+}

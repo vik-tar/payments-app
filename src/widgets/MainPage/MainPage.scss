@@ -1,0 +1,13 @@
+.mainPage {
+  &__title {
+    padding: var(--layout-mobile-padding);
+    margin: 0;
+    font: var(--font-title);
+    color: var(--font-color-main);
+    text-transform: capitalize;
+    
+    @media(min-width: 768px) {
+      padding: var(--layout-desktop-padding);
+    }
+  }
+}

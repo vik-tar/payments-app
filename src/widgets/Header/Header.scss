@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: var(--background-header);
+  height: var(--header-mobile-height);
+  box-shadow: 0px 2px 7px 0px var(--header-shadow);
+  color: var(--font-color-main);
+
+  @media(min-width: 768px) {
+    height: var(--header-desktop-heigth);
+  }
+
+  &__layout {
+    padding: 0 20px;
+
+    @media(min-width: 768px) {
+      padding: 0 120px;
+    }
+  }
+
+  .left-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    @media(min-width: 768px) {
+      gap: 24px;
+    }
+
+    .icon {
+      margin-bottom: 5px;
+    }
+  }
+}

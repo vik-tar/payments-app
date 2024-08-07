@@ -1,0 +1,11 @@
+.button {
+  border-radius: 4px;
+  background-color: var(--button-main);
+  color: var(--font-color-main);
+  font: var(--font-card-title);
+  text-align: center;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

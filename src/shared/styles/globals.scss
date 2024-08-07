@@ -1,0 +1,48 @@
+:root {
+  /** fonts */
+  --font-family-main: 'Avenir', 'Courier New', 'Times New Roman', arial;
+
+  --font-size-title: 24px;
+  --font-line-title: 33px;
+  --font-weight-title: 800;
+  --font-title: var(--font-weight-title) var(--font-size-title) / var(--font-line-title) var(--font-family-main);
+
+  --font-size-subtitle: 18px;
+  --font-line-subtitle: 25px;
+  --font-weight-subtitle: 800;
+  --font-subtitle: var(--font-weight-title) var(--font-size-subtitle) / var(--font-line-subtitle) var(--font-family-main);
+
+  --font-size-description: 16px;
+  --font-line-description: 24px;
+  --font-weight-description: 500;
+  --font-description: var(--font-weight-description) var(--font-size-description) / var(--font-line-description) var(--font-family-main);
+
+  --font-size-card-title: 10px;
+  --font-line-card-title: 14px;
+  --font-weight-card-title: 800;
+  --font-card-title: var(--font-weight-card-title) var(--font-size-card-title) / var(--font-line-card-title) var(--font-family-main);
+
+  --font-size-card-description: 8px;
+  --font-line-card-description: 11px;
+  --font-weight-card-description: 400;
+  --font-card-description: var(--font-weight-card-description) var(--font-size-card-description) / var(--font-line-card-description) var(--font-family-main);
+
+  /** colors */
+  --background-header: #20242A;
+  --background-main: #202329;
+  --header-shadow: #000000B8;
+  --font-color-main: #fff;
+  --input-background: #30363E;
+
+  --blue-main: #2D69EB;
+  --blue-ligth: #4C84FF;
+  --button-main: #F9484B;
+
+  /** sizes */
+  --header-mobile-height: 64px;
+  --header-desktop-heigth: 84px;
+
+  /** paddings */
+  --layout-mobile-padding: 24px 20px 0;
+  --layout-desktop-padding: 32px 120px 0;
+}

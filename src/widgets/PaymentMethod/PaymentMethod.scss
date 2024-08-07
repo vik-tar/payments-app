@@ -1,0 +1,58 @@
+.paymentMethod {
+  padding: var(--layout-mobile-padding);
+
+  @media (min-width: 768px) {
+    padding: var(--layout-desktop-padding);
+  }
+
+  &__title {
+    margin: 0 0 24px;
+    font: var(--font-subtitle);
+  }
+
+  &__subtitle {
+    font: var(--font-description);
+  }
+
+  &__cardBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 280px;
+    margin: 0 auto;
+
+    @media(min-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  &__card {
+    width: 130px;
+    height: 79px;
+    border-radius: 4px;
+    background-color: var(--input-background);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .card {
+    text-align: center;
+
+    &__icon {
+      margin-top: 13px;
+      margin-bottom: 5px;
+      height: 20px;
+    }
+
+    &__title {
+      font: var(--font-card-title);
+    }
+
+    &__description {
+      font: var(--font-card-description);
+      opacity: 50%
+    }
+  }
+}

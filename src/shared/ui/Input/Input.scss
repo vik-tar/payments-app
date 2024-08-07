@@ -1,0 +1,25 @@
+.input {
+  background-color: var(--input-background);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font: var(--font-card-description);
+  text-transform: uppercase;
+  color: var(--font-color-main);
+  box-sizing: border-box;
+  position: relative;
+
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    background-image: url("../../icons/check-circle.svg");
+    background-size: cover;
+  }
+}
